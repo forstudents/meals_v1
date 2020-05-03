@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:meals/screens/categories_screen.dart';
 import 'package:meals/screens/favorite_screens.dart';
+import 'package:meals/widgets/main_drawer.dart';
 
 class TabsScreen extends StatefulWidget {
   @override
@@ -46,6 +47,7 @@ class _TabsScreenState extends State<TabsScreen> {
           ),
         ],
       ),
+      drawer: MainDrawer(),
     );
   }
 }
